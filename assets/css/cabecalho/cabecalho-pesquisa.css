@@ -1,0 +1,6 @@
+.cabecalho__pesquisa {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+}

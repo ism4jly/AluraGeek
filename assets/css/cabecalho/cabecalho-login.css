@@ -1,0 +1,9 @@
+.cabecalho__login {
+    border: 1px solid #2A7AE4;
+    background: #FFFFFF;
+    padding: 0.75rem 3rem;
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: #2A7AE4;
+    text-align: center;
+}
