@@ -1,0 +1,9 @@
+.banner_textos {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 1rem;
+    position: absolute;
+    top: 33%;
+    
+}
