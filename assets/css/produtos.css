@@ -1,0 +1,22 @@
+.produtos {
+    padding: 1rem;
+}
+
+.produtos__inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produtos__link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.produtos__link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2a7ae4;
+}
