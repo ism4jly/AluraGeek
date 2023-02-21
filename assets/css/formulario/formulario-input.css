@@ -1,0 +1,12 @@
+.formulario__input, .formulario__input--texto  {
+    background: #FFF;
+    border: 0;
+    padding: 1.3rem 1rem;
+    border-radius: 5px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.formulario__input--texto {
+    padding: 2rem 1rem;
+    
+}
