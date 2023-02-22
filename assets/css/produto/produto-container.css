@@ -6,3 +6,10 @@
     margin: 1.2rem 0;
     
 }
+
+
+@media screen and (min-width: 1024px) {
+    .produto__container{
+        gap: 0.5rem;
+    }
+}

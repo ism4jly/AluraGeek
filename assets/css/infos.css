@@ -54,3 +54,20 @@
 
 }
 
+@media screen and (min-width: 1024px) {
+    .infos{
+        grid-template-areas: 
+            "logo links contact"
+            "logo links contact";
+        grid-template-columns: 1fr 1fr 2fr;
+        padding: 4rem;
+        padding: 4rem 8rem;
+        
+    }
+
+    .infos__container{
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}
+

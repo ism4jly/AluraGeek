@@ -26,3 +26,9 @@
         padding: 2rem;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .produtos{
+        margin: 2rem 7.75rem;
+    }
+}
