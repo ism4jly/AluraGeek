@@ -24,6 +24,11 @@
 .infos__texto {
     font-weight: 500;
     font-size: 1rem;
+    list-style: none;
+}
+
+.infos__texto a {
+    text-decoration: none;
     color: #464646;
 }
 
