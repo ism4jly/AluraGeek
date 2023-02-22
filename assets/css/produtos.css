@@ -20,3 +20,9 @@
     font-size: 14px;
     color: #2a7ae4;
 }
+
+@media screen and (min-width: 768px){
+    .produtos{
+        padding: 2rem;
+    }
+}

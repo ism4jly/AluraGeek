@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-pesquisa.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-login.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-input.css">
     <link rel="stylesheet" href="./assets/css/banner/banner.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-subtitulo.css">
@@ -36,128 +37,133 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img class="cabecalho__logo" src="./assets/img/Logo.png" alt="Logo AluraGeek">
+        <div class="cabecalho__pesquisa--container">
+            <img class="cabecalho__logo" src="./assets/img/Logo.png" alt="Logo AluraGeek">
+            <input placeholder="O que deseja encontrar?" class="cabecalho__input" type="text">
+        </div>
         <button class="cabecalho__login">Login</button>
         <button class="cabecalho__pesquisa">
             <img src="./assets/img/Icone.svg" alt="Icone de pesquisa">
         </button>
     </header>
 
-    <section class="banner">
-        <div class="banner__imagem"></div>
-        <div class="banner_textos">
-            <h1 class="banner__titulo">Dezembro Promocional</h1>
-            <p class="banner__subtitulo">Produtos selecionados com 33% de desconto</p>
-            <button class="banner__botao">Ver Consoles</button>
-        </div>
-    </section>
+    <main>
+        <section class="banner">
+            <div class="banner_textos">
+                <h1 class="banner__titulo">Dezembro Promocional</h1>
+                <p class="banner__subtitulo">Produtos selecionados com 33% de desconto</p>
+                <button class="banner__botao">Ver Consoles</button>
+            </div>
+        </section>
+    
+        <!--STAR WARS-->
+        <section class="produtos">
+            <div class="produtos__inicio">
+                <h2 class="produtos__titulo">Star Wars</h2>
+                <div class="produtos__link">
+                    <a href="">Ver tudo</a>
+                    <img src="./assets/img/arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="produto__container">
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Skill.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Vader.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Yoda.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Start.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+            </div>
+    
+            <!--CONSOLES-->
+            <div class="produtos__inicio">
+                <h2 class="produtos__titulo">Consoles</h2>
+                <div class="produtos__link">
+                    <a href="">Ver tudo</a>
+                    <img src="./assets/img/arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="produto__container">
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/controle.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Play.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Nintendo.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Switch.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+            </div>
+    
+            <!--DIVERSOS-->
+            <div class="produtos__inicio">
+                <h2 class="produtos__titulo">Diversos</h2>
+                <div class="produtos__link">
+                    <a href="">Ver tudo</a>
+                    <img src="./assets/img/arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="produto__container">
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Marca.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Player.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Sonic.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto__imagem" src="./assets/img/Horas.jpg" alt="">
+                    <span class="produto__nome">Produto XYZ</span>
+                    <strong class="produto__preco">R$ 60,00</strong>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <!--STAR WARS-->
-    <section class="produtos">
-        <div class="produtos__inicio">
-            <h2 class="produtos__titulo">Star Wars</h2>
-            <div class="produtos__link">
-                <a href="">Ver tudo</a>
-                <img src="./assets/img/arrow.svg" alt="">
-            </div>
-        </div>
-        <div class="produto__container">
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Skill.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Vader.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Yoda.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Start.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-        </div>
-
-        <!--CONSOLES-->
-        <div class="produtos__inicio">
-            <h2 class="produtos__titulo">Consoles</h2>
-            <div class="produtos__link">
-                <a href="">Ver tudo</a>
-                <img src="./assets/img/arrow.svg" alt="">
-            </div>
-        </div>
-        <div class="produto__container">
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/controle.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Play.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Nintendo.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Switch.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-        </div>
-
-        <!--DIVERSOS-->
-        <div class="produtos__inicio">
-            <h2 class="produtos__titulo">Diversos</h2>
-            <div class="produtos__link">
-                <a href="">Ver tudo</a>
-                <img src="./assets/img/arrow.svg" alt="">
-            </div>
-        </div>
-        <div class="produto__container">
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Marca.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Player.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Sonic.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/Horas.jpg" alt="">
-                <span class="produto__nome">Produto XYZ</span>
-                <strong class="produto__preco">R$ 60,00</strong>
-                <a class="produto__link" href="#">Ver produto</a>
-            </div>
-        </div>
-    </section>
 
     <section class="infos">
         <div class="infos__logo">

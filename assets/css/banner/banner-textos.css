@@ -7,3 +7,12 @@
     top: 33%;
     
 }
+
+@media screen and (min-width: 768px){
+    .banner_textos{
+        gap: 0.3rem;
+        top: 43%;
+        padding-left: 2rem;
+    }
+}
+
